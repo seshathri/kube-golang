@@ -5,7 +5,9 @@ Hi Team,
 i created a small Command Line Interface for manging kube using client-go library
 
 below are the compiling options
-go build -o kubetest .
+to compile the Program inside the project folder -> go build -o kubetest .
+
+
 
 to start you need to enter: ./kubetest -version="<version number>" -scale=<replicas>
 
