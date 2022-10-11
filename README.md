@@ -9,7 +9,7 @@ to compile the Program inside the project folder -> go build -o kubetest .
 
 
 
-to start you need to enter: ./kubetest -version="<version number>" -scale=<replicas>
+to start you need to enter: ./kubetest -version="<version number>" -scale=<replicas> --kubeconfig=</path/to/file> 
 
 which will create a initial deployment and will you the options below 
 
